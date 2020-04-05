@@ -21,7 +21,7 @@ header h1 {
   font-size: 48px;
 }
 
-header h1 .seo {
+.seo {
   color: #d9dcd6;
 }
 
@@ -70,10 +70,31 @@ p {
   margin-left: 25px;
 }
 
-main{
+main {
   width: 95%;
   display: inline-block;
   margin-left: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  display: flex;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+  width: 75%;
+}
+
+section img{
+  max-height: 200px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 article {
@@ -98,27 +119,6 @@ article img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
-}
-
-section {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  display: flex;
-
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-  width: 75%;
-}
-
-section img{
-  max-height: 200px;
-}
-
-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .hero {
